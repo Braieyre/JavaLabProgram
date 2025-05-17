@@ -4,5 +4,6 @@
 /**
  * 
  */
-module JavaLabProgram {
+module JavaLab {
+	requires java.desktop;
 }

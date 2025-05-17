@@ -26,6 +26,5 @@ public class Application
 		double rate = sim.runSimulations(times);
 		System.out.println("胜率为：" + rate + "!");
 		sc.close();
-		
 	}
 }

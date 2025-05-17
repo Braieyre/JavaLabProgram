@@ -34,7 +34,7 @@ public class FrogSimulation
 			{
 				System.out.println("请输入第"+ i +"次青蛙跳的距离~");
 				hopDis = sc.nextInt();
-				rest -= hopDistance();
+				rest -= hopDistance();		//oop
 				if(rest <= 0 ) 
 				{
 					return true;
