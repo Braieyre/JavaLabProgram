@@ -34,7 +34,7 @@ public class FrogSimulation
 			{
 				System.out.println("请输入第"+ i +"次青蛙跳的距离~");
 				hopDis = sc.nextInt();
-				rest -= hopDistance();		//oop
+				rest -= hopDistance();		//体现出oop的编程思想
 				if(rest <= 0 ) 
 				{
 					return true;
@@ -59,7 +59,7 @@ public class FrogSimulation
 			for (int i = 1; i <= num; i++) 
 			{
 				System.out.println("——————————————————————————");
-				System.out.println("第" + i + "局~");
+				System.out.println("第" + i + "局~");  //界面交互提示
 				boolean result = simulate();
 				if (result)
 				{

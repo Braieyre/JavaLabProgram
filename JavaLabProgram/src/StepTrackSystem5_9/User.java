@@ -3,6 +3,7 @@ package StepTrackSystem5_9;
 public class User {
 
 	public static void main(String[] args) {
+		//依照题目进行传值
 		StepTracker tr =new StepTracker(10000);
 		tr.activeDays();
 		tr.averageSteps();
